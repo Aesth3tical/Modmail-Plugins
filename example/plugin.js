@@ -2,7 +2,7 @@ module.exports.plugin = {
     name: 'example',
     description: 'an example plugin',
     author: 'Dan Perkins (Aesth3tical)',
-    repository: 'https://github.com/Aesth3tical/Modmail-Plugins/example',
+    repository: 'https://github.com/Aesth3tical/Modmail-Plugins/blob/main/example/plugin.js',
     commands: [
         'example_command',
         'example_command_2'
