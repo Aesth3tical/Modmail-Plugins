@@ -24,3 +24,11 @@ module.exports.example_command_2 = {
         message.reply({ content: 'Hello Modmail' })
     }
 }
+
+module.exports.example_command_3 = {
+    name: 'example3',
+    description: 'yet another example command (implemented to test plugin updates on the bot',
+    run: async (client, message) => {
+        message.reply({ content: `Hello ${message.author}` })
+    }
+}
