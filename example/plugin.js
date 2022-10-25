@@ -5,7 +5,8 @@ module.exports.plugin = {
     repository: 'https://github.com/Aesth3tical/Modmail-Plugins/blob/main/example/plugin.js',
     commands: [
         'example_command',
-        'example_command_2'
+        'example_command_2',
+        'example_command_3'
     ]
 }
 
